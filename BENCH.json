@@ -1,0 +1,178 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "YOMO",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\OIL_GAS\\YOMO\\UPSTREAM",
+  "git": {
+   "head": "f1b8396948b299a878dc811c888e9acd2e109d30",
+   "url": "https://github.com/yomorun/yomo-wasmedge-tensorflow",
+   "branch": "main",
+   "committed_at": "2026-09-29T11:06:59+04:00",
+   "sha_verified_from": "GitHub API commits/main"
+  }
+ },
+ "metrics": {
+  "files_total": 0,
+  "source_files_scanned": 0,
+  "lines_of_code": 0,
+  "languages": {}
+ },
+ "licence": {
+  "spdx": "NOASSERTION",
+  "class": "C",
+  "source_file": null,
+  "redistribution_allowed": false
+ },
+ "dependencies": {
+  "count": 0,
+  "unique": 0,
+  "by_ecosystem": {},
+  "list": []
+ },
+ "owasp_top10": {
+  "total_findings": 0,
+  "files_with_findings": 0,
+  "severity": {
+   "high": 0,
+   "medium": 0,
+   "low": 0
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 0,
+    "findings": []
+   },
+   "A04-InsecureDesign": {
+    "count": 0,
+    "findings": []
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 0,
+    "findings": []
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 0,
+  "files_with_findings": 0,
+  "severity": {
+   "high": 0,
+   "medium": 0,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ff3ef608-d387-50a8-b0ae-0399fa16b7ad",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-09T09:06:29Z",
+   "component": {
+    "type": "application",
+    "name": "YOMO",
+    "version": "f1b8396948b2",
+    "bom-ref": "pkg:generic/anticloud/YOMO@f1b8396948b2",
+    "purl": "pkg:generic/anticloud/YOMO@f1b8396948b2",
+    "licenses": [
+     {
+      "license": {
+       "id": "NOASSERTION"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "f1b8396948b299a8"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": []
+ },
+ "elapsed_seconds": 0.37,
+ "all_passed": false,
+ "passed": 0,
+ "failed": 0,
+ "failed_ids": [],
+ "blocker": "no upstream source on disk: UPSTREAM_CLONE and UPSTREAM both empty/missing; nothing to measure; clone blocked or license-blocked"
+}

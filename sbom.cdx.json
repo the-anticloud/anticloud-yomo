@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ff3ef608-d387-50a8-b0ae-0399fa16b7ad",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-09T09:06:29Z",
+    "component": {
+      "type": "application",
+      "name": "YOMO",
+      "version": "f1b8396948b2",
+      "bom-ref": "pkg:generic/anticloud/YOMO@f1b8396948b2",
+      "purl": "pkg:generic/anticloud/YOMO@f1b8396948b2",
+      "licenses": [
+        {
+          "license": {
+            "id": "NOASSERTION"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "f1b8396948b299a8"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
